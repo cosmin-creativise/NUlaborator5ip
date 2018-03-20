@@ -1,0 +1,33 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   Comentariu.java
+
+package com.company;
+
+
+public class Comentariu
+{
+
+    public Comentariu(String s)
+    {
+        text = s;
+    }
+
+    public String getText()
+    {
+        return text;
+    }
+
+    public void setText(String s)
+    {
+        text = s;
+    }
+
+    public String toString()
+    {
+        return (new StringBuilder()).append("Comentariu{text='").append(text).append('\'').append('}').toString();
+    }
+
+    public String text;
+}

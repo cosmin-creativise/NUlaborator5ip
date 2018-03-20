@@ -1,0 +1,37 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   PersoanaFaraCont.java
+
+package com.company;
+
+import java.util.ArrayList;
+
+// Referenced classes of package com.company:
+//            Persoana
+
+public class PersoanaFaraCont extends Persoana
+{
+
+    public PersoanaFaraCont(ArrayList arraylist)
+    {
+        postarePublica = arraylist;
+    }
+
+    public ArrayList getPostarePublica()
+    {
+        return postarePublica;
+    }
+
+    public void setPostarePublica(ArrayList arraylist)
+    {
+        postarePublica = arraylist;
+    }
+
+    public String toString()
+    {
+        return (new StringBuilder()).append("PersoanaFaraCont{postarePublica=").append(postarePublica).append('}').toString();
+    }
+
+    public ArrayList postarePublica;
+}

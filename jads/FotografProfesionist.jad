@@ -1,0 +1,38 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   FotografProfesionist.java
+
+package com.company;
+
+import java.util.ArrayList;
+
+// Referenced classes of package com.company:
+//            PersoanaCuCont
+
+public class FotografProfesionist extends PersoanaCuCont
+{
+
+    public ArrayList getPostariPremium()
+    {
+        return postariPremium;
+    }
+
+    public FotografProfesionist(String s, ArrayList arraylist, ArrayList arraylist1, ArrayList arraylist2, ArrayList arraylist3)
+    {
+        super(s, arraylist, arraylist1, arraylist2);
+        postariPremium = arraylist3;
+    }
+
+    public void setPostariPremium(ArrayList arraylist)
+    {
+        postariPremium = arraylist;
+    }
+
+    public String toString()
+    {
+        return (new StringBuilder()).append("FotografProfesionist{postariPremium=").append(postariPremium).append('}').toString();
+    }
+
+    public ArrayList postariPremium;
+}
