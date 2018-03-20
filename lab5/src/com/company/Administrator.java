@@ -6,9 +6,8 @@ public class Administrator extends Persoana {
 
   public ArrayList<Persoana> persoane;
 
-  public Administrator(ArrayList<Persoana> persoane) {
+  public Administrator() {
     super();
-    this.persoane = persoane;
   }
 
   public ArrayList<Persoana> getPersoane() {

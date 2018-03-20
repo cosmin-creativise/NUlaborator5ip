@@ -15,4 +15,12 @@ public class Video extends Media {
     this.durata = durata;
   }
 
+  @Override
+  public String toString() {
+    return "Video{" +
+            "durata=" + durata +
+            ", descriere='" + descriere + '\'' +
+            ", continut='" + continut + '\'' +
+            '}';
+  }
 }

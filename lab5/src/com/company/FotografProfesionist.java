@@ -11,9 +11,9 @@ public class FotografProfesionist extends PersoanaCuCont {
     return postariPremium;
   }
 
-  public FotografProfesionist(String numeUtilizator, ArrayList<PersoanaCuCont> urmaritori, ArrayList<PersoanaCuCont> persoanaUrmarite, ArrayList<Media> medii, ArrayList<Postare> postariPremium) {
-    super(numeUtilizator, urmaritori, persoanaUrmarite, medii);
-    this.postariPremium = postariPremium;
+
+  public FotografProfesionist(String numeUtilizator) {
+    super(numeUtilizator);
   }
 
   public void setPostariPremium(ArrayList<Postare> postariPremium) {

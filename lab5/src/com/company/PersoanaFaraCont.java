@@ -6,6 +6,10 @@ public class PersoanaFaraCont extends Persoana {
 
   public ArrayList<Postare> postarePublica;
 
+  public PersoanaFaraCont(){
+
+  }
+
   public PersoanaFaraCont(ArrayList<Postare> postarePublica) {
     this.postarePublica = postarePublica;
   }

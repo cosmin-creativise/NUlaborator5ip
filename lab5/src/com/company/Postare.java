@@ -9,6 +9,10 @@ public class Postare {
 
   public ArrayList<PersoanaCuCont> persoaneCareApreciaza;
 
+  public Postare(){
+
+  }
+
   public Postare(Media media, ArrayList<Comentariu> comentarii, ArrayList<PersoanaCuCont> persoaneCareApreciaza) {
     this.media = media;
     this.comentarii = comentarii;

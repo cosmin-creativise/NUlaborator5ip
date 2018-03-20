@@ -13,15 +13,8 @@ public class PersoanaCuCont extends Persoana {
 
   public ArrayList<Media> medii;
 
-  public PersoanaCuCont(){
-
-  }
-
-  public PersoanaCuCont(String numeUtilizator, ArrayList<PersoanaCuCont> urmaritori, ArrayList<PersoanaCuCont> persoanaUrmarite, ArrayList<Media> medii) {
+  public PersoanaCuCont(String numeUtilizator){
     this.numeUtilizator = numeUtilizator;
-    this.urmaritori = urmaritori;
-    this.persoanaUrmarite = persoanaUrmarite;
-    this.medii = medii;
   }
 
   @java.lang.Override
