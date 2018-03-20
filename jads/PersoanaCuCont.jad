@@ -1,0 +1,77 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   PersoanaCuCont.java
+
+package com.company;
+
+import java.util.ArrayList;
+
+// Referenced classes of package com.company:
+//            Persoana
+
+public class PersoanaCuCont extends Persoana
+{
+
+    public PersoanaCuCont()
+    {
+    }
+
+    public PersoanaCuCont(String s, ArrayList arraylist, ArrayList arraylist1, ArrayList arraylist2)
+    {
+        numeUtilizator = s;
+        urmaritori = arraylist;
+        persoanaUrmarite = arraylist1;
+        medii = arraylist2;
+    }
+
+    public String toString()
+    {
+        return (new StringBuilder()).append("PersoanaCuCont{numeUtilizator='").append(numeUtilizator).append('\'').append(", urmaritori=").append(urmaritori).append(", persoanaUrmarite=").append(persoanaUrmarite).append(", medii=").append(medii).append('}').toString();
+    }
+
+    public String getNumeUtilizator()
+    {
+        return numeUtilizator;
+    }
+
+    public void setNumeUtilizator(String s)
+    {
+        numeUtilizator = s;
+    }
+
+    public ArrayList getUrmaritori()
+    {
+        return urmaritori;
+    }
+
+    public void setUrmaritori(ArrayList arraylist)
+    {
+        urmaritori = arraylist;
+    }
+
+    public ArrayList getPersoanaUrmarite()
+    {
+        return persoanaUrmarite;
+    }
+
+    public void setPersoanaUrmarite(ArrayList arraylist)
+    {
+        persoanaUrmarite = arraylist;
+    }
+
+    public ArrayList getMedii()
+    {
+        return medii;
+    }
+
+    public void setMedii(ArrayList arraylist)
+    {
+        medii = arraylist;
+    }
+
+    public String numeUtilizator;
+    public ArrayList urmaritori;
+    public ArrayList persoanaUrmarite;
+    public ArrayList medii;
+}

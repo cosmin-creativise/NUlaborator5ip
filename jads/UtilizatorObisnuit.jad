@@ -1,0 +1,43 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   UtilizatorObisnuit.java
+
+package com.company;
+
+import java.util.ArrayList;
+
+// Referenced classes of package com.company:
+//            PersoanaCuCont
+
+public class UtilizatorObisnuit extends PersoanaCuCont
+{
+
+    public UtilizatorObisnuit(String s, ArrayList arraylist, ArrayList arraylist1, ArrayList arraylist2, ArrayList arraylist3)
+    {
+        super(s, arraylist, arraylist1, arraylist2);
+        postariObisnuite = arraylist3;
+    }
+
+    public UtilizatorObisnuit(ArrayList arraylist)
+    {
+        postariObisnuite = arraylist;
+    }
+
+    public String toString()
+    {
+        return (new StringBuilder()).append("UtilizatorObisnuit{postariObisnuite=").append(postariObisnuite).append('}').toString();
+    }
+
+    public ArrayList getPostariObisnuite()
+    {
+        return postariObisnuite;
+    }
+
+    public void setPostariObisnuite(ArrayList arraylist)
+    {
+        postariObisnuite = arraylist;
+    }
+
+    public ArrayList postariObisnuite;
+}

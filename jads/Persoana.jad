@@ -1,0 +1,61 @@
+// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   Persoana.java
+
+package com.company;
+
+
+public class Persoana
+{
+
+    public Persoana()
+    {
+    }
+
+    public Persoana(String s, String s1, Integer integer)
+    {
+        nume = s;
+        prenume = s1;
+        id = integer;
+    }
+
+    public String getNume()
+    {
+        return nume;
+    }
+
+    public void setNume(String s)
+    {
+        nume = s;
+    }
+
+    public String getPrenume()
+    {
+        return prenume;
+    }
+
+    public void setPrenume(String s)
+    {
+        prenume = s;
+    }
+
+    public Integer getId()
+    {
+        return id;
+    }
+
+    public void setId(Integer integer)
+    {
+        id = integer;
+    }
+
+    public String toString()
+    {
+        return (new StringBuilder()).append("Persoana{nume='").append(nume).append('\'').append(", prenume='").append(prenume).append('\'').append(", id=").append(id).append('}').toString();
+    }
+
+    public String nume;
+    public String prenume;
+    public Integer id;
+}
