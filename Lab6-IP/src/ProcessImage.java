@@ -12,6 +12,9 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class ProcessImage {
+
+
+
     public static String getMD5(String path) throws NoSuchAlgorithmException, IOException, InvalidImageExtensionException, FilePathException {
         if(!Files.exists(Paths.get(path)))
             throw new FilePathException();

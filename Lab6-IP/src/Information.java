@@ -5,6 +5,7 @@ public class Information {
 
     public Information(Exhibit exhibit) {
         this.exhibit = exhibit;
+        showInformation();
     }
 
     void showInformation() {
