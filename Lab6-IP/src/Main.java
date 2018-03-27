@@ -11,11 +11,9 @@ import static org.junit.Assert.assertTrue;
 
 public class Main{
 
-
+    public static Map<Author,List<Exhibit>> hashMap = new HashMap<Author,List<Exhibit>>();
 
     public static void main(String argv[]){
-
-        Map<Author,List<Exhibit>> hashMap = new HashMap<Author,List<Exhibit>>();
 
 
 
