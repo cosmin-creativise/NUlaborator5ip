@@ -4,6 +4,12 @@ public class Exhibit {
     String title;
     String date;
 
+    public Exhibit(Author author, String title, String date) {
+        this.author = author;
+        this.title = title;
+        this.date = date;
+    }
+
     public Author getAuthor() {
         return author;
     }
