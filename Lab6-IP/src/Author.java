@@ -2,7 +2,7 @@ public class Author {
 
     String name;
 
-    public Autor(String name) {
+    public Author(String name) {
         this.name = name;
     }
 

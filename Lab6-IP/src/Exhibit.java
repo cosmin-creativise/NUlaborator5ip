@@ -3,11 +3,17 @@ public class Exhibit {
     Author author;
     String title;
     String date;
-
+    String md5;
+    
     public Exhibit(Author author, String title, String date) {
         this.author = author;
         this.title = title;
         this.date = date;
+
+    }
+
+    public void setMD5(String md5) {
+        this.md5 = md5;
     }
 
     public Author getAuthor() {
