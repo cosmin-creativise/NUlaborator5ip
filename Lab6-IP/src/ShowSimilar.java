@@ -9,6 +9,7 @@ public class ShowSimilar {
 
         this.exhibit = exhibit;
         init();
+
     }
 
     public void init(){
@@ -16,7 +17,11 @@ public class ShowSimilar {
         for(Map.Entry<Author,List<Exhibit>> entry: Main.hashMap.entrySet()){
             for(Exhibit exh: entry.getValue())
                 if(exh.equals(exhibit)){
-                    System.out.println(exhibit);
+                    for(Exhibit exh1: Main.hashMap.get(entry.getKey())){
+                        if(exh1.equals(exhibit)){}
+                            else System.out.println(exh1);
+
+                    }
                 }
         }
 
